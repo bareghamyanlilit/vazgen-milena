@@ -9,7 +9,7 @@ export const program = [
     icon: <FaChurch />,
     time: "15:00",
     title: "Պսակադրություն",
-    add:"Սուրբ Աստվածամոր տաճար, Լոռու մարզ, Վանաձոր",
+    add:"Սուրբ Մարիամ Աստվածածին եկեղեցի, Լոռու մարզ, Վանաձոր",
     address: "https://www.google.com/maps/place/Holy+Mother+of+God+Church/@40.8148756,44.4957785,17z/data=!3m1!4b1!4m6!3m5!1s0x4041bc11e4353d11:0x960cb61035e3d808!8m2!3d40.8148756!4d44.4957785!16s%2Fm%2F0138whk7!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D",
   },
   {
