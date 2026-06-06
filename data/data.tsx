@@ -16,7 +16,7 @@ export const program = [
     icon: <FaUtensils />,
     time: "17:30",
     title: "Հարսանյաց հանդիսություն",
-    add:"Империя, Լոռու մարզ, Վանաձոր, Տավրոս թաղամաս",
+    add:"Իմպերիա, Լոռու մարզ, Վանաձոր, Տավրոս թաղամաս",
     address: "https://yandex.com/maps/org/imperiya/178147001067/?ll=44.445815%2C40.836746&z=15",
   },
 ];
