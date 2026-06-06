@@ -35,14 +35,14 @@ const ProgramItem = ({ add, time, title, address }: any) => {
 
   return (
     <div
-      className=" text-xl  bg-cover h-dvh bg-no-repeat "
+      className=" text-xl  bg-cover bg-no-repeat "
       style={{ backgroundImage: `url(${img})` }}
     >
-      <div className="w-full backdrop-brightness-30 h-full  flex flex-col items-center justify-center gap-5 py-10 px-5 text-center">
+      <div className="w-full py-10 backdrop-brightness-30 h-full  flex flex-col items-center justify-center gap-5  px-5 text-center">
         <motion.p {...anim} className="opacity-80 text-5xl">
           {time}
         </motion.p>
-        <motion.h3 {...anim} className=" text-center text-4xl">
+        <motion.h3 {...anim} className=" text-center text-փxl">
           {title}
         </motion.h3>
         <motion.p {...anim} className="text-xl opacity-80">
