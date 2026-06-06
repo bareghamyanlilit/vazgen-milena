@@ -96,13 +96,13 @@ export function Home() {
           <div className=" mt-20 tracking-[15%] leading-10">
             <motion.h3
               {...anim}
-              className=" font-bold text-sovorakan text-xl"
+              className=" font-bold text-sovorakan text-2xl"
             >
               ՍԻՐԵԼԻ՛ ՀՅՈՒՐԵՐ
             </motion.h3>
             <motion.p
               {...anim}
-              className=" text-sovorakan  px-5 text-xl mt-10 "
+              className=" text-sovorakan  px-5 text-2xl mt-10 "
             >
               {txt1}
             </motion.p>
