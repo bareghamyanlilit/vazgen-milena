@@ -93,10 +93,10 @@ export function Home() {
 
         {/* 2rd mas teqster */}
         <div className=" px-5 mb-20 tracking-[10%]  ">
-          <div className=" mt-20 tracking-[15%] leading-10">
+          <div className=" mt-20  leading-10">
             <motion.h3
               {...anim}
-              className=" font-bold text-sovorakan text-2xl"
+              className=" font-bold tracking-[15%] text-sovorakan text-2xl"
             >
               ՍԻՐԵԼԻ՛ ՀՅՈՒՐԵՐ
             </motion.h3>
