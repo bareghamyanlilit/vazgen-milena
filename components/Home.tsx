@@ -146,7 +146,7 @@ export function Home() {
           </div>
         </div>
 
-        <Calendar year={2026} month={8} highlightDay={8} />
+        <Calendar year={2026} month={7} highlightDay={1} />
 
         <Program />
       </div>
