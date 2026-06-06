@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export function Calendar({ year = 2025, month = 9, highlightDay = 8 }) {
+export function Calendar({ year = 2025, month = 7, highlightDay = 1 }) {
   const monthNames = [
     "Հունվար",
     "Փետրվար",

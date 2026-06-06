@@ -30,7 +30,7 @@ const getImage = (title: any) => {
   return null;
 };
 
-const ProgramItem = ({ time, title, address }: any) => {
+const ProgramItem = ({ add, time, title, address }: any) => {
   const img = getImage(title);
 
   return (
@@ -46,12 +46,12 @@ const ProgramItem = ({ time, title, address }: any) => {
           {title}
         </motion.h3>
         <motion.p {...anim} className="text-xl opacity-80">
-          {address}
+          {add}
         </motion.p>
 
         <motion.a
           {...anim}
-          href={`https://www.google.com/maps/search/${address}`}
+          href={address}
           target="_blank"
           className="inline-flex bg-black rounded-2xl items-center gap-2 px-10 py-2 text-sm border"
         >

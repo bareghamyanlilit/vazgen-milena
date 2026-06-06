@@ -42,7 +42,7 @@ export function Home() {
         src={envelop[1]}
         alt="envelop"
         onClick={() => setOpenEnvelope(true)}
-        className={`${openEnvelope ? "opacity-0" : ""} grayscale-100 transition-all duration-100  absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  cursor-pointer  md:w-50 md:h-50 z-60 w-30 h-30 `}
+        className={`${openEnvelope ? "opacity-0" : ""}   transition-all duration-100  absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  cursor-pointer  md:w-50 md:h-50 z-60 w-30 h-30 `}
       />
 
       {/* music button */}
